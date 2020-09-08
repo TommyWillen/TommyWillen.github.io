@@ -1,0 +1,21 @@
+body {
+    
+}
+header nav {
+    background-color: #22817d;
+}
+aside {
+    float: left;
+    width: 20%;
+    background-color: cornsilk;
+    padding-bottom: 100%;
+}
+main {
+    float: right;
+    width: 80%;
+    background-color: rgb(211, 203, 187);
+    padding-bottom: 100%;
+}
+aside h5 {
+    font-weight: 100;
+}
