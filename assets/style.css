@@ -19,3 +19,12 @@ main {
 aside h5 {
     font-weight: 100;
 }
+.anchor a{
+position: absolute;
+  left: 0px;
+  top: -60px;
+}
+.section {
+    padding-top: 60px;
+    margin-top: -60px;
+}
