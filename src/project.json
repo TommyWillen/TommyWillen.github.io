@@ -1,0 +1,50 @@
+[
+    {
+        "id": 1,
+        "title": "GifnJelly",
+        "image": "./assets/images/gifnjelly.gif",
+        "body": "",
+        "gitHub": "",
+        "deployed": ""
+    },
+    {
+        "id": 2,
+        "title": "GameFlix",
+        "image": "./assets/images/gameflix.png",
+        "body": "",
+        "gitHub": "",
+        "deployed": ""
+    },
+    {
+        "id": 3,
+        "title": "REACTive Employee Directory",
+        "image": "./assets/images/employee-directory-functionality-gif.gif",
+        "body": "",
+        "gitHub": "",
+        "deployed": ""
+    },
+    {
+        "id": 4,
+        "title": "",
+        "image": "./assets/images/budget-tracker-gif.gif",
+        "body": "",
+        "gitHub": "",
+        "deployed": ""
+    },
+    {
+        "id": 5,
+        "title": "",
+        "image": "./assets/images/Console-Based-Employee-Manager-Tutorial.gif",
+        "body": "",
+        "gitHub": "",
+        "deployed": ""
+    },
+    {
+        "id": 6,
+        "title": "",
+        "image": "./assets/images/JavaScript-Quiz-Main.gif",
+        "body": "",
+        "gitHub": "",
+        "deployed": ""
+    }
+]

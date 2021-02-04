@@ -1,10 +1,15 @@
 import React from "react";
-
+import AboutMain from "../components/AboutMain"
+import Row from "react-bootstrap/Row";
 
 
 function AboutMe() {
     return (
-      "hello world about me"   
+        <Row>
+            
+        
+        <AboutMain></AboutMain>
+        </Row>
     )
 }
 

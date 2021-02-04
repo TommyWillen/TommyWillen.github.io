@@ -10,7 +10,7 @@ aside {
     background-color: cornsilk;
     padding-bottom: 100%;
 }
-main {
+.main {
     float: right;
     width: 80%;
     background-color: rgb(211, 203, 187);
@@ -28,3 +28,8 @@ position: absolute;
     padding-top: 60px;
     margin-top: -60px;
 }
+
+.sticky {
+    position: fixed;
+    top: 0;
+  }
