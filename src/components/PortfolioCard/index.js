@@ -1,14 +1,14 @@
 import React from "react";
-import CardDeck from "react-bootstrap/CardDeck"
+import CardColumns from "react-bootstrap/CardColumns"
 import Card from "react-bootstrap/Card"
-import Projects from "../../project.json"
+import Projects from "../../project"
 
 function PortfolioCard() {
     return (
-<CardDeck>
+<CardColumns className="mt-3">
   {Projects.map(item => {
-    <Card key={item.id}>
-    <Card.Img variant="top" src={item.image} />
+return (<Card>
+    <Card.Img variant="top" src={item.image} alt={item.altTag} id={"proj" + item.id}/>
     <Card.Body>
       <Card.Title>{item.title}</Card.Title>
       <Card.Text>
@@ -17,13 +17,14 @@ function PortfolioCard() {
     </Card.Body>
     <Card.Footer>
       <small className="text-muted"><a href={item.gitHub}>Github Repo</a></small>
+      <br></br>
       <small className="text-muted"><a href={item.deployed}></a>Deployed Site</small>
     </Card.Footer>
-  </Card>
+  </Card>)
   })}
   
   
-</CardDeck>
+</CardColumns>
     )
 }
 

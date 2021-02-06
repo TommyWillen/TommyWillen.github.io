@@ -1,24 +1,23 @@
 import React from "react";
 import Accordion from "react-bootstrap/Accordion";
 import Card from "react-bootstrap/Card";
+import Projects from "../../project";
 
-function SideAccordion(props) {
-  console.log(props.titleItem)
+function SideAccordionPortfolio() {
+
     return (
       <Card bg="dark" text="light" className="rounded-0">
         <Card.Title>Jump to a Section</Card.Title>
         <Accordion.Toggle as={Card.Header} eventKey="0">
-          {props.title}
+          About Me
         </Accordion.Toggle>
         <Accordion.Collapse eventKey="0">
           <Card.Body>
-          {props.titleItem.map(item => 
-          <div><a href={item.link} className="text-light">{item.linkTitle}</a></div>
-            )}
+            {Projects.map(item => <div><a href={"#proj" + item.id} className="text-light">{item.title}</a></div>)}
           </Card.Body>
         </Accordion.Collapse>
       </Card>
   );
 }
 
-export default SideAccordion;
+export default SideAccordionPortfolio;
