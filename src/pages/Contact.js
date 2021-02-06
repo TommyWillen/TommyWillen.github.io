@@ -1,11 +1,19 @@
 import React from "react";
+import Row from "react-bootstrap/Row";
+import ContactCard from "../components/ContactCard";
 
 
+function ContactMe(props) {
+    
+    props.sideNavCheck()
 
-function Contact() {
     return (
-      "hello world contact me"   
+        <Row>
+            
+        
+        <ContactCard></ContactCard>
+        </Row>
     )
 }
 
-export default Contact
+export default ContactMe
