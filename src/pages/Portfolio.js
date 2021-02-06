@@ -1,10 +1,15 @@
 import React from "react";
-
+import PortfolioCard from "../components/PortfolioCard";
+import Row from "react-bootstrap/Row"
 
 
 function Portfolio() {
     return (
-      "hello world my portfolio"   
+      <Row>
+            
+        
+        <PortfolioCard></PortfolioCard>
+        </Row>  
     )
 }
 
