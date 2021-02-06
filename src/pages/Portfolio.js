@@ -1,10 +1,13 @@
 import React from "react";
+import Row from "react-bootstrap/Row";
 
 
 
-function Portfolio() {
+function Portfolio(props) {
     return (
-      "hello world my portfolio"   
+      <Row>
+      {props.children}  
+      </Row>
     )
 }
 

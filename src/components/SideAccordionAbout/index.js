@@ -12,9 +12,9 @@ function SideAccordionAbout() {
         </Accordion.Toggle>
         <Accordion.Collapse eventKey="0">
           <Card.Body>
-          <div><a href="#from" className="text-light">Who I Am</a></div>
-          <div><a href="#education" className="text-light">Education</a></div>
-          <div><a href="#family" className="text-light">Why I Code</a></div>
+          <div><a href="" className="text-light">Who I Am</a></div>
+          <div><a href="" className="text-light">Education</a></div>
+          <div><a href="" className="text-light">Why I Code</a></div>
           </Card.Body>
         </Accordion.Collapse>
       </Card>

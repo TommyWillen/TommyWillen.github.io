@@ -1,10 +1,13 @@
 import React from "react";
+import Row from "react-bootstrap/Row";
 
 
 
-function Contact() {
+function Contact(props) {
     return (
-      "hello world contact me"   
+      <Row>
+      {props.children}  
+      </Row> 
     )
 }
 

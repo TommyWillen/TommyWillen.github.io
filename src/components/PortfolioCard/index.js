@@ -7,7 +7,7 @@ function PortfolioCard() {
     return (
 <CardColumns className="mt-3">
   {Projects.map(item => {
-return (<Card>
+return (<Card key={item.id}>
     <Card.Img variant="top" src={item.image} alt={item.altTag} id={"proj" + item.id}/>
     <Card.Body>
       <Card.Title>{item.title}</Card.Title>
