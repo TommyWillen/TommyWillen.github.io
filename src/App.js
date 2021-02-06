@@ -4,7 +4,7 @@ import AboutMe from "./pages/AboutMe";
 import Contact from "./pages/Contact";
 import Portfolio from "./pages/Portfolio";
 import MyNavbar from "./components/MyNavbar";
-import "./App.css";
+// import "./App.css";
 import Container from "react-bootstrap/Container";
 import SideBar from "./components/Sidebar";
 import MainContainer from "./components/MainContainer";
